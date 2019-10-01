@@ -7,8 +7,8 @@
 
 #include <cstddef>
 #include <utility>
-#include "RingBuffer.h"
-#include "ftdi_imu.h"
+#include <basic_ring_buffer.hpp>
+#include <ftdi_imu.h>
 #include <Eigen/Dense>
 
 enum class ParserMode  {SearchingStart, ParsingHearderGroup, ParsingPayload, ParsingCRC};
